@@ -6,7 +6,7 @@ $(document).ready(function() {
 });
 
 var generateHTML = function() {
-	var html = "<video autoplay loop style='height: 100vh; width: 100vw'><source src='https://raw.githubusercontent.com/youreabot/Rickrollify/master/rick.webm' type='video/webm'><source src='https://raw.githubusercontent.com/youreabot/Rickrollify/master/rick.mp4' type='video/mp4'></video>";
+	var html = "<video autoplay loop style='height: 100vh; width: 100vw'><source src='https://codeberg.org/duck/Rickrollify/raw/branch/master/rick.webm' type='video/webm'><source src='https://codeberg.org/duck/Rickrollify/raw/branch/master/rick.mp4' type='video/mp4'></video>";
 	return html;
 };
 
