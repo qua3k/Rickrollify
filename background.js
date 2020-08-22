@@ -11,12 +11,12 @@ var generateHTML = function() {
 };
 
 var rickrollify = function() {
-	setTimeout(function() { // Wait 2.5 seconds before rickrolling
+	setTimeout(function() { // Wait 3 seconds before rickrolling
 		var html = generateHTML();
 		$('body').html(html);
 		document.body.style.backgroundColor = "black";
 		setTimeout(function() { // Wait 60 seconds for rickroll to finish
 			window.location.replace(document.URL);
 		}, 60000);
-	}, 2500);
+	}, 3000);
 };
