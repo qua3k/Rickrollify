@@ -1,7 +1,8 @@
 {
-  "name": "Cenafy",
-  "version": "1.0.4",
-  "description": "And his name is John Cena",
+  "manifest_version": 2,
+  "name": "Rickrollify",
+  "version": "1.0.0",
+  "description": "An extension that grants you a 1/100 chance you get rickrolled on a page",
 
   "content_scripts": [
     {
@@ -15,5 +16,9 @@
     "http://*/*",
     "https://*/*"
   ],
-  "manifest_version": 2
+
+  "icons": {
+    "32": "icons/32x32.png",
+    "128": "icons/128x128.png"
+  }
 }
