@@ -1,24 +1,33 @@
 {
   "manifest_version": 2,
   "name": "Rickrollify",
-  "version": "1.1.2",
-  "description": "An extension that grants you a 1/100 chance you get rickrolled on a page",
+  "version": "2.0.0",
+   "browser_specific_settings": {
+    "gecko": {
+      "id": "rickrollify@delizioso_at_codeberg.org"
+    }
+  },
+
+  "description": "A Google Chrome Extension has a 1/100 chance of injecting Rick Astley on every new page load.",
 
   "content_scripts": [
     {
-      "matches": ["http://*/*", "https://*/*"],
-      "js": ["jquery-1.11.1.min.js", "background.js"]
+      "matches": ["*://*/*"],
+      "exclude_matches": ["https://www.youtube.com/watch?v=dQw4w9WgXcQ"], 
+      "js": ["jquery-3.5.1.min.js", "background.js"]
     }
   ],
 
   "permissions": [
     "tabs",
-    "http://*/*",
-    "https://*/*"
+    "*://*/*"
   ],
 
   "icons": {
     "32": "icons/32x32.png",
     "128": "icons/128x128.png"
-  }
+  },
+
+  "homepage_url": "https://codeberg.org/duck/Rickrollify"
+
 }
