@@ -1,12 +1,7 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Rickrollify",
-  "version": "2.0.2",
-   "browser_specific_settings": {
-    "gecko": {
-      "id": "rickrollify@delizioso_at_codeberg.org"
-    }
-  },
+  "version": "3",
 
   "description": "An extension that grants you a 1% chance of injecting Rick Astley on every new page load.",
 
@@ -14,13 +9,8 @@
     {
       "matches": ["*://*/*"],
       "exclude_matches": ["https://www.youtube.com/watch?v=dQw4w9WgXcQ"], 
-      "js": ["jquery-3.5.1.min.js", "background.js"]
+      "js": ["background.js"]
     }
-  ],
-
-  "permissions": [
-    "tabs",
-    "*://*/*"
   ],
 
   "icons": {
@@ -28,6 +18,6 @@
     "128": "icons/128x128.png"
   },
 
-  "homepage_url": "https://codeberg.org/duck/Rickrollify"
+  "homepage_url": "https://github.com/qua3k/Rickrollify"
 
 }
