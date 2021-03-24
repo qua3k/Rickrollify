@@ -4,7 +4,7 @@ const rickrollify = () => {
     }, 3000)
 }
 
-const chance = Math.floor(Math.random() * 2);
-    if (chance === 1) {
+const chance = Math.floor(Math.random() * 100);
+    if (chance === 69) {
         rickrollify();
     }
