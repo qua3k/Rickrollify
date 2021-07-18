@@ -1,21 +1,21 @@
 {
-  "manifest_version": 3,
-  "name": "Rickrollify",
-  "version": "3.0.1",
+    "manifest_version": 3,
+    "name": "Rickrollify",
+    "version": "3.0.2",
 
-  "description": "An extension that grants you a 1% chance of injecting Rick Astley on every new page load.",
-  "icons": { "32": "icons/32x32.png",
-             "128": "icons/128x128.png" },
+    "description": "An extension that grants you a 1% chance of injecting Rick Astley on every new page load.",
+    "icons": {
+        "32": "icons/32x32.png",
+        "128": "icons/128x128.png"
+    },
 
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "exclude_matches": ["https://www.youtube.com/watch?v=dQw4w9WgXcQ"], 
-      "js": ["background.js"]
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "exclude_matches": ["https://www.youtube.com/watch?v=dQw4w9WgXcQ"],
+        "js": ["background.js"]
+    }],
+
+    "content_security_policy": {
+        "extension_pages": "default-src 'none'; script-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
     }
-  ],
-  
-  "content_security_policy": {
-    "extension_pages": "default-src 'self'"
-  }
 }
