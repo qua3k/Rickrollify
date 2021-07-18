@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Rickrollify",
-  "version": "2.0.1",
+  "version": "2.0.2",
    "browser_specific_settings": {
     "gecko": {
       "id": "rickrollify@delizioso_at_codeberg.org"
