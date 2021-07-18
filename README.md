@@ -2,4 +2,6 @@
 
 A Google Chrome Extension has a 1/100 chance of injecting Rick Astley on every new page load.
 
-[Download](https://github.com/youreabot/Rickrollify/releases/)
+## Installation
+Go to chrome://extensions and enable Developer mode (toggle in top right).
+Download the .crx from [Releases](https://github.com/youreabot/Rickrollify/releases) and drag-and-drop it onto the chrome://extensions page.
