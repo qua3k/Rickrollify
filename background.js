@@ -1,5 +1,1 @@
-"use strict";
-
-if (Math.floor(Math.random() * 100) === 69) {
-    window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1");
-}
+if(Math.floor(Math.random()*100)===69){window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1")}
